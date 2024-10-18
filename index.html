@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        /* Container for the entire page layout */
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        /* Fixed Navigation Bar */
+        .navbar {
+            width: 250px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            padding: 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            padding: 10px;
+        }
+        /* Content Area */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            width: 100%;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+  <a href="file:///D:/My%20Website/home.html" target="iframe_a">Home</a>
+  <a href="file:///D:/My%20Website/About_Me.html" target="iframe_a">About</a>
+  <a href="file:///D:/My%20Website/Education.html" target="iframe_a">Education</a>
+  <a href="file:///D:/My%20Website/Awards and Achievements.html" target="iframe_a">Achievements</a>
+  <a href="file:///D:/My%20Website/Contact.html" target="iframe_a">Contact</a>
+</div>
+<div class="content">
+<iframe src="home.html" name="iframe_a" height="500px" width="500px" style="border:none;" title="Iframe Example"></iframe>
+</div>
+</body>
+</html>
